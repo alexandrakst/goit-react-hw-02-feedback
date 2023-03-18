@@ -8,6 +8,6 @@ export const Button = styled.button`
   cursor: pointer;
 `;
 
-export const StatParagraph = styled.p`
+export const StatDiv = styled.div`
   font-size: 17px;
 `;

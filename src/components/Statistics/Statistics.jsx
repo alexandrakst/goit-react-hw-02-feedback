@@ -1,13 +1,13 @@
 import React from "react";
-import { StatParagraph } from "./Statistics.styled"
+import { StatDiv } from "./Statistics.styled"
 
 export const Statistics = ({ good, neutral, bad , total, positivePercentage}) => {
     return (
-        <div>
-            <StatParagraph>Good: { good }</StatParagraph>
-            <StatParagraph>Neutral: { neutral }</StatParagraph>
-            <StatParagraph>Bad: { bad }</StatParagraph>
-            <StatParagraph>Total: { total }</StatParagraph>
-            <StatParagraph>Positive feedback: { positivePercentage } %</StatParagraph>
-        </div> )
+        <StatDiv>
+            <p>Good: { good }</p>
+            <p>Neutral: { neutral }</p>
+            <p>Bad: { bad }</p>
+            <p>Total: { total }</p>
+            <p>Positive feedback: { positivePercentage } %</p>
+        </StatDiv> )
 }
